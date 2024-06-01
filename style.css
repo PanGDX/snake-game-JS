@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    font-family:cursive;
+}
+h1{
+    font-size: 40px;
+    margin: 0px;
+}
+.h3-container {
+    margin: 0px;
+    display: flex;
+    justify-content: center; /* Centers the items horizontally in the container */
+    align-items: center;     /* Centers the items vertically in the container (if needed) */
+}
+.h3-container h3 {
+    padding: 0 20px; /* Adds padding to the left and right of each h3 */
+    font-size: 20px;
+}
+.h3-container h3:first-child {
+    padding-right: 40px; /* Adds extra padding to the right of the first h3 */
+}
+.h3-container h3:last-child {
+    padding-left: 40px; /* Adds extra padding to the left of the second h3 */
+}
+
+.wrapper{
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#play{
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+}
